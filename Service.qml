@@ -13,7 +13,7 @@ import Quickshell.Io
 Item {
   id: root
 
-  readonly property string pluginId: "io.github.JesusLovesYou1013.ctrlz-guard"
+  readonly property string pluginId: "io.github.jesuslovesyou1013.ctrlz-guard"
 
   // Local path of this plugin's folder, wherever omarchy-plugin-add put it.
   readonly property string scriptPath:

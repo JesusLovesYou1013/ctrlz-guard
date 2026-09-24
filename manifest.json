@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "io.github.JesusLovesYou1013.ctrlz-guard",
+  "id": "io.github.jesuslovesyou1013.ctrlz-guard",
   "name": "CtrlZ Guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "JesusLovesYou1013",
   "license": "GPL-3.0",
   "description": "Simple tweak to how the terminals and AI sessions work so that hitting Ctrl + Z out of habit doesn't suspend your session losing all your progress. (Like I did until making this) Simply disabling will bring back the normal function so can be an easy way to switch back and forth.",

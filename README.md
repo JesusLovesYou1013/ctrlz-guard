@@ -44,7 +44,7 @@ Enable Plugin**. Nothing is changed until the plugin is enabled.
 ## Remove
 
 Disable it (**Setup › Plugins › Disable Plugin**, or
-`omarchy plugin disable io.github.JesusLovesYou1013.ctrlz-guard`), or remove it
+`omarchy plugin disable io.github.jesuslovesyou1013.ctrlz-guard`), or remove it
 (**Setup › Plugins › Remove Plugin**). Either way the marked blocks are deleted
 and your configs go back to exactly what they were.
 

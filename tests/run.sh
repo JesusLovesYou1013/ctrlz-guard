@@ -5,7 +5,7 @@
 
 set -uo pipefail
 here=$(cd "$(dirname "$0")/.." && pwd)
-id="io.github.JesusLovesYou1013.ctrlz-guard"
+id="io.github.jesuslovesyou1013.ctrlz-guard"
 fails=0
 
 fake=$(mktemp -d) || exit 1
