@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.JesusLovesYou1013.ctrlz-guard",
+  "name": "CtrlZ Guard",
+  "version": "1.0.0",
+  "author": "JesusLovesYou1013",
+  "license": "GPL-3.0",
+  "description": "Stops Ctrl+Z from suspending programs in your terminal (Claude Code, editors, anything) — it sends undo (Ctrl+_) instead.\n• Must be ENABLED to take effect: installs disabled unless you use --enable, or turn it on in Setup › Plugins › Enable Plugin.\n• Changes nothing until enabled; while enabled it adds one marked block to each foot, alacritty, kitty and ghostty config you have.\n• Disable or remove the plugin and those blocks are deleted, restoring your configs exactly.\n• Skips terminals with no config and any config where you already bind Ctrl+Z.\n• Applies to newly opened terminal windows; already-open windows keep the old behaviour.\n• No UI or bar icon — it runs quietly in the background.",
+  "kinds": [
+    "service"
+  ],
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
